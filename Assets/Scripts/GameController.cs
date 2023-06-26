@@ -9,6 +9,7 @@ public class GameController : MonoBehaviour
     // We want to delay our code at certain times
     public float delayTime = 1.5f;
     public float spawnTime = 3f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,9 +27,7 @@ public class GameController : MonoBehaviour
     {
         float posX = Random.Range(-4.6f, 4.6f);
         float posY = 11.5f;
-
         Instantiate(enemy, new Vector3(posX, posY, 0), this.transform.rotation);
-
     }
 
 }

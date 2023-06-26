@@ -29,7 +29,7 @@ public class LiveController : MonoBehaviour
     {
         for (int i = 0; i <= lives; i++)
         {
-            GameObject liveObject = GameObject.Find("live" + i);
+            GameObject liveObject = GameObject.Find("Live" + i);
             if (liveObject != null)
             {
                 Destroy(liveObject);
@@ -48,22 +48,29 @@ public class LiveController : MonoBehaviour
         for (int i = 0; i < lives; i++)
         {
             _instantiatedLive = Instantiate(liveSprite, new Vector3(list[i], posY, 0), this.transform.rotation);
-            _instantiatedLive.name = "live" + i;
+            _instantiatedLive.name = "Live" + i;
         }
 
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.name.Contains("enemy"))
+        if (collision.gameObject.name.Contains("Enemy"))
         {
-            Destroy(collision.gameObject);
             lives--;
-            LivesDisplay();
-            if (lives == 0)
+           
+        } else if (collision.gameObject.name.Contains("LiveSpawn"))
+        {
+            if (lives < maxLives)
             {
-                Destroy(gameObject);
+                lives++;
             }
+        }
+        Destroy(collision.gameObject);
+        LivesDisplay();
+        if (lives == 0)
+        {
+            Destroy(gameObject);
         }
     }
 

@@ -12,7 +12,21 @@ public class PlaneController : MonoBehaviour
     private float xMax = 4.6f;
     private float yMin = -8.9f;
     private float yMax = 8.9f;
-    private int lives = 3;
+
+    // The laser we will be shooting
+    public Transform laser;
+
+    // How far from the center of the ship should the laser be
+    public float laserDistance = .2f;
+
+    // How much time (in seconds) we should wait before we can fire again
+    public float timeBetweenFires = .3f;
+
+    // If value is less than or equal 0, we can fire
+    private float timeTilNextFire = 0.0f;
+
+    // The buttons that we can use to shoot lasers
+    public List<KeyCode> shootButton;
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +40,29 @@ public class PlaneController : MonoBehaviour
         MouseMoving();
         transform.position = new Vector3(Mathf.Clamp(transform.position.x, xMin, xMax), transform.position.y, transform.position.z);       
         transform.position = new Vector3(transform.position.x, Mathf.Clamp(transform.position.y, yMin, yMax), transform.position.z);
+
+        foreach (KeyCode element in shootButton)
+        {
+            if (Input.GetKey(element) && timeTilNextFire < 0)
+            {
+                timeTilNextFire = timeBetweenFires;
+                ShootLaser();
+                break;
+            }
+        }
+
+        timeTilNextFire -= Time.deltaTime;
+    }
+
+    void ShootLaser()
+    {
+        // calculate the position right in front of the ship's
+        // position lazerDistance units away
+        var posX = this.transform.position.x +
+                     (Mathf.Cos((transform.localEulerAngles.z - 90) * Mathf.Deg2Rad) * -laserDistance);
+        var posY = this.transform.position.y + (Mathf.Sin((transform.localEulerAngles.z - 90) * Mathf.Deg2Rad) * -laserDistance);
+
+        Instantiate(laser, new Vector3(posX, posY, 0), this.transform.rotation);
     }
 
     void MouseMoving()
@@ -42,14 +79,5 @@ public class PlaneController : MonoBehaviour
 
         moveVer = Input.GetAxis("Vertical");
         transform.position += new Vector3(0, moveVer) * speed * Time.deltaTime;
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.name.Contains("enemy"))
-        {
-            Destroy(collision.gameObject);
-            lives--;
-        }
     } 
 }
