@@ -12,12 +12,6 @@ public class MenuScript : MonoBehaviour
 
     }
 
-    public void StoryGame()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
-
-    }
-
     public void QuitGame()
     {
         Application.Quit();
