@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Falling : MonoBehaviour
 {
+    public float speedUpTime = 2f;
+
+    private float timeElapsed = 0f;
 
     float speed = 2f;
     // Start is called before the first frame update
@@ -15,6 +18,12 @@ public class Falling : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        timeElapsed += Time.deltaTime;
+        if (speed < 10 && timeElapsed >= speedUpTime)
+        {
+            speed++;
+            speedUpTime += speedUpTime;
+        }
         transform.Translate(Vector3.down * speed * Time.deltaTime);
         if (transform.position.y < -10)
         {

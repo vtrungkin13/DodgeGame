@@ -222,8 +222,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 9043288490863457113, guid: 748435cb61865334aa0b56b3935d8cf3, type: 3}
-  delayTime: 1.5
-  spawnTime: 3
+  speedUpTime: 5
 --- !u!114 &519420037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -237,8 +236,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 5387311972928380606, guid: cc05582f335146c40a642c4eacd2f30c, type: 3}
-  minSpawnInterval: 3
-  maxSpawnInterval: 5
+  minSpawnInterval: 60
+  maxSpawnInterval: 120
 --- !u!1 &535837413 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7025347086592333061, guid: 4ba3271f488c1d145811f2a9b389564d, type: 3}

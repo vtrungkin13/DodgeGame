@@ -6,15 +6,15 @@ public class GameController : MonoBehaviour
 {
     // Our enemy to spawn
     public Transform enemy;
-    // We want to delay our code at certain times
-    public float delayTime = 1.5f;
-    public float spawnTime = 3f;
+
+    public float speedUpTime = 5f;
+
+    private float timeElapsed = 0f;
 
     // Start is called before the first frame update
     void Start()
     {
-        Invoke("SpawnEnemies", delayTime);
-        InvokeRepeating("SpawnEnemies", delayTime, spawnTime);
+        StartCoroutine(SpawnEnemies());
     }
 
     // Update is called once per frame
@@ -23,11 +23,23 @@ public class GameController : MonoBehaviour
         
     }
 
-    void SpawnEnemies()
+    IEnumerator SpawnEnemies()
     {
-        float posX = Random.Range(-4.6f, 4.6f);
+        float spawnTime = 2f;
         float posY = 11.5f;
-        Instantiate(enemy, new Vector3(posX, posY, 0), this.transform.rotation);
+        while(true)
+        {
+            timeElapsed += Time.deltaTime;
+            if (spawnTime > 0.5 && timeElapsed >= speedUpTime)
+            {
+                spawnTime -= 0.5f;
+                speedUpTime += speedUpTime;
+            }
+            float posX = Random.Range(-4.6f, 4.6f);
+            Instantiate(enemy, new Vector3(posX, posY, 0), this.transform.rotation);
+            yield return new WaitForSeconds(spawnTime);
+        }
     }
+
 
 }
