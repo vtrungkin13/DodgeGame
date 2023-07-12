@@ -72,11 +72,8 @@ public class LiveController : MonoBehaviour
         LivesDisplay();
         if (lives == 0)
         {
-            // Load the scene that contains the object you want to display
-            SceneManager.LoadScene("MainMenu", LoadSceneMode.Additive);
-
             // Find the object you want to display
-            GameObject obj = GameObject.Find("ScreenEndGame");
+            GameObject obj = GameObject.Find("CanvasEndgame");
             // Set the object's position and rotation to match your desired position and rotation
             obj.transform.position = new Vector3(0, 0, 0);
             obj.transform.rotation = Quaternion.identity;
