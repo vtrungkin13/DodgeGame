@@ -1,26 +1,28 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class IgnoreCollider : MonoBehaviour
 {
-    public GameObject ignoreCollider;
+    [FormerlySerializedAs("bulletCollider")]
+    [SerializeField]
+    private Collider2D bulletCollider;
+
+    [FormerlySerializedAs("stoneCollider")]
+    [SerializeField]
+    private Collider2D stoneCollider;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        Physics2D.IgnoreCollision(GetComponent<Collider2D>(), bulletCollider);
+        Physics2D.IgnoreCollision(GetComponent<Collider2D>(), stoneCollider);
     }
 
     // Update is called once per frame
     void Update()
     {
-        BoxCollider2D myCollider = GetComponent<BoxCollider2D>();
-        BoxCollider2D otherCollider = ignoreCollider.GetComponent<BoxCollider2D>();
-
-        if (myCollider != null && otherCollider != null)
-        {
-            Physics2D.IgnoreCollision(myCollider, otherCollider);
-        }
+        
     }
 }

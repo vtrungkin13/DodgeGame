@@ -42,6 +42,5 @@ public class LiveSpawn : MonoBehaviour
         float posY = 11.5f;
 
         Instantiate(objectToSpawn, new Vector3(posX, posY), this.transform.rotation);
-        Debug.Log(nextSpawnTime);
     }
 }

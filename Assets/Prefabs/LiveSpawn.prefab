@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3775649287167666724}
   - component: {fileID: 940328507247223648}
   - component: {fileID: -444301267651559773}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LiveSpawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -159,4 +159,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40d5e7d7adc6414d8b905a10eb8d8cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ignoreCollider: {fileID: 6630465472311145978, guid: 047ab50467d2d9f42a81c7ecd3388747, type: 3}
+  bulletCollider: {fileID: 7802846319179364696, guid: 047ab50467d2d9f42a81c7ecd3388747, type: 3}
+  stoneCollider: {fileID: 4297616991600805706, guid: 748435cb61865334aa0b56b3935d8cf3, type: 3}

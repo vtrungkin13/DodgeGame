@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class LiveFalling : MonoBehaviour
 {
-    float speed = 2f;
+    
+    public float speedMultiplier = 2f;
+
+    float speed;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        speed = 8;
     }
 
     // Update is called once per frame
@@ -20,5 +23,6 @@ public class LiveFalling : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        speed += speedMultiplier * Time.deltaTime;
     }
 }

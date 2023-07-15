@@ -3,7 +3,11 @@ guid: e40d5e7d7adc6414d8b905a10eb8d8cd
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - ignoreCollider: {instanceID: 0}
+  - liveCollider: {fileID: 940328507247223648, guid: cc05582f335146c40a642c4eacd2f30c, type: 3}
+  - bulletCollider: {fileID: 7802846319179364696, guid: 047ab50467d2d9f42a81c7ecd3388747, type: 3}
+  - stoneCollider: {fileID: 4297616991600805706, guid: 748435cb61865334aa0b56b3935d8cf3, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
