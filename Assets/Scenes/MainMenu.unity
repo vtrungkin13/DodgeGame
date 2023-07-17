@@ -952,8 +952,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.3173, y: -97.31459}
-  m_SizeDelta: {x: 881.3886, y: 1322.0459}
+  m_AnchoredPosition: {x: -1.3173, y: -35.134537}
+  m_SizeDelta: {x: 881.3886, y: 1446.4058}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &233775740
 MonoBehaviour:
@@ -975,7 +975,86 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: "Ti\xEAu \u0111\u1EC1: \"Cu\u1ED9c giao tranh v\u0169 tr\u1EE5: C\xE2u
+    chuy\u1EC7n v\u1EC1 s\u1EF1 s\u1ED1ng c\xF2n gi\u1EEFa c\xE1c thi\xEAn h\xE0\"\r\n\r\nC\xE2u
+    chuy\u1EC7n:\r\n\r\n\u1EDE m\u1ED9t g\xF3c xa x\xF4i c\u1EE7a v\u0169 tr\u1EE5,
+    m\u1ED9t phi \u0111\u1ED9i m\xE1y bay chi\u1EBFn \u0111\u1EA5u d\u0169ng c\u1EA3m
+    d\u1EA5n th\xE2n v\xE0o m\u1ED9t nhi\u1EC7m v\u1EE5 \u0111\u1EA7y nguy hi\u1EC3m.
+    C\xE1c v\u01B0\u01A1ng qu\u1ED1c gi\u1EEFa c\xE1c thi\xEAn h\xE0 \u0111\u1EA7y
+    r\u1EABy nguy hi\u1EC3m v\xE0 s\u1EF1 s\u1ED1ng c\xF2n c\u1EE7a lo\xE0i ph\u1EE5
+    thu\u1ED9c v\xE0o k\u1EF9 n\u0103ng, l\xF2ng d\u0169ng c\u1EA3m v\xE0 quy\u1EBFt
+    t\xE2m c\u1EE7a h\u1ECD.\r\n\r\nN\u0103m 2307. H\xE0nh tinh Zephyria, ng\xF4i
+    nh\xE0 c\u1EE7a ch\u1EE7ng t\u1ED9c c\xF3 tri gi\xE1c cu\u1ED1i c\xF9ng c\xF2n
+    s\u1ED1ng s\xF3t, ph\u1EA3i \u0111\u1ED1i m\u1EB7t v\u1EDBi m\u1ED9t m\u1ED1i
+    \u0111e d\u1ECDa s\u1EAFp x\u1EA3y ra. M\u1ED9t \u0111\u1ED9i qu\xE2n ngo\xE0i
+    h\xE0nh tinh \u0111\u01B0\u1EE3c g\u1ECDi l\xE0 Xerathons, do T\u01B0\u1EDBng
+    Zarak t\xE0n nh\u1EABn l\xE3nh \u0111\u1EA1o, t\xECm c\xE1ch ti\xEAu di\u1EC7t
+    m\u1ECDi d\u1EA5u v\u1EBFt c\u1EE7a s\u1EF1 s\u1ED1ng trong thi\xEAn h\xE0. Trong
+    m\u1ED9t n\u1ED7 l\u1EF1c tuy\u1EC7t v\u1ECDng \u0111\u1EC3 b\u1EA3o v\u1EC7
+    qu\xEA h\u01B0\u01A1ng c\u1EE7a h\u1ECD, c\xE1c Zephyria tung phi \u0111\u1ED9i
+    chi\u1EBFn \u0111\u1EA5u tinh nhu\u1EC7 c\u1EE7a h\u1ECD, \"Starfire Wing\" v\xE0o
+    s\xE2u trong kh\xF4ng gian.\r\n\r\nL\xE0 m\u1ED9t phi c\xF4ng tr\u1EBB, b\u1EA1n
+    th\u1EA5y m\xECnh \u0111ang \u0111i\u1EC1u khi\u1EC3n m\u1ED9t trong nh\u1EEFng
+    chi\u1EBFc m\xE1y bay chi\u1EBFn \u0111\u1EA5u ti\xEAn ti\u1EBFn nh\u1EA5t t\u1EEBng
+    \u0111\u01B0\u1EE3c t\u1EA1o ra - Aurora Starfighter. \u0110\u01B0\u1EE3c trang
+    b\u1ECB v\u0169 kh\xED t\u1ED1i t\xE2n, khi\xEAn v\xE0 kh\u1EA3 n\u0103ng c\u01A1
+    \u0111\u1ED9ng ti\xEAn ti\u1EBFn, b\u1EA1n b\u1EAFt \u0111\u1EA7u m\u1ED9t h\xE0nh
+    tr\xECnh kh\xF3 kh\u0103n.\r\n\r\nKhi b\u1EA1n b\u1EAFt \u0111\u1EA7u cu\u1ED9c
+    h\xE0nh tr\xECnh c\u1EE7a m\xECnh, b\u1EA1n b\u1EAFt g\u1EB7p nh\u1EEFng c\u1EA3nh
+    quan v\u0169 tr\u1EE5 ngo\u1EA1n m\u1EE5c ch\u1EE9a \u0111\u1EA7y nh\u1EEFng
+    tinh v\xE2n r\u1EF1c r\u1EE1, nh\u1EEFng h\u1ED1 s\xE2u xo\xE1y v\xE0 nh\u1EEFng
+    c\u1EE5m sao xa x\xF4i. M\u1ED7i cu\u1ED9c ch\u1EA1m tr\xE1n \u0111\u01B0a ra
+    m\u1ED9t th\u1EED th\xE1ch, ki\u1EC3m tra ph\u1EA3n x\u1EA1, \u0111\u1ED9 ch\xEDnh
+    x\xE1c v\xE0 b\u1EA3n n\u0103ng chi\u1EBFn thu\u1EADt c\u1EE7a b\u1EA1n. B\u1EA1n
+    ph\u1EA3i kh\xE9o l\xE9o n\xE9 tr\xE1nh c\xE1c ti\u1EC3u h\xE0nh tinh kh\u1ED5ng
+    l\u1ED3 \u0111ang lao v\u1EC1 ph\xEDa m\xECnh, \u0111\u1ED3ng th\u1EDDi chi\u1EBFn
+    \u0111\u1EA5u v\u1EDBi nh\u1EEFng con t\xE0u \u0111\u1ECBch kh\xF4ng ng\u1EEBng
+    c\u1ED1 g\u1EAFng ch\u1EB7n \u0111\u01B0\u1EDDng c\u1EE7a b\u1EA1n.\r\n\r\nKhi
+    b\u1EA1n ho\xE0n th\xE0nh tr\xF2 ch\u01A1i, b\u1EA1n thu th\u1EADp c\xE1c v\u1EADt
+    ph\u1EA9m t\u0103ng s\u1EE9c m\u1EA1nh v\xE0 n\xE2ng c\u1EA5p \u0111\u1EC3 n\xE2ng
+    cao kh\u1EA3 n\u0103ng c\u1EE7a m\xE1y bay. B\u1ED9 t\u1EA1o l\xE1 ch\u1EAFn
+    ti\xEAn ti\u1EBFn cung c\u1EA5p th\xEAm kh\u1EA3 n\u0103ng b\u1EA3o v\u1EC7,
+    v\u0169 kh\xED b\u1EAFn nhanh gi\xFAp t\u0103ng h\u1ECFa l\u1EF1c c\u1EE7a b\u1EA1n
+    v\xE0 c\xE1c m\xF4-\u0111un si\xEAu kh\xF4ng gian cho ph\xE9p b\u1EA1n t\u1EA1m
+    th\u1EDDi d\u1ECBch chuy\u1EC3n t\u1EE9c th\u1EDDi \u0111\u1EBFn n\u01A1i an
+    to\xE0n.\r\n\r\nC\xE1c tr\u1EADn chi\u1EBFn kh\u1ED1c li\u1EC7t h\u01A1n khi
+    b\u1EA1n \u0111\u1ED1i \u0111\u1EA7u v\u1EDBi \u0111\u1ED9i qu\xE2n Xerathon.
+    C\xE1c t\xE0u chi\u1EBFn gh\xEA g\u1EDBm c\u1EE7a k\u1EBB th\xF9 gi\u1EA3i ph\xF3ng
+    m\u1ED9t lo\u1EA1t c\xE1c kh\u1EA9u ph\xE1o plasma, t\xECm c\xE1ch \xE1p \u0111\u1EA3o
+    b\u1EA1n. Qu\xE1 tr\xECnh hu\u1EA5n luy\u1EC7n v\xE0 kinh nghi\u1EC7m c\u1EE7a
+    b\u1EA1n s\u1EBD \u0111\u01B0\u1EE3c th\u1EED th\xE1ch khi b\u1EA1n tham gia
+    v\xE0o c\xE1c tr\u1EADn kh\xF4ng chi\u1EBFn \u0111\u1EA7y adrenaline gi\u1EEFa
+    s\u1EF1 h\u1ED7n lo\u1EA1n c\u1EE7a h\u1ECFa l\u1EF1c laze v\xE0 n\u0103ng l\u01B0\u1EE3ng
+    b\xF9ng n\u1ED5.\r\n\r\nS\u1EF1 s\u1ED1ng c\xF2n c\u1EE7a b\u1EA1n l\xE0 t\u1ED1i
+    quan tr\u1ECDng, nh\u01B0ng m\u1EE5c ti\xEAu cu\u1ED1i c\xF9ng c\u1EE7a b\u1EA1n
+    l\xE0 \u0111\u1EA9y l\xF9i Xerathons v\xE0 kh\xF4i ph\u1EE5c h\xF2a b\xECnh cho
+    thi\xEAn h\xE0. V\u1EDBi m\u1ED7i t\xE0u \u0111\u1ECBch m\xE0 b\u1EA1n ti\xEAu
+    di\u1EC7t, b\u1EA1n mang l\u1EA1i hy v\u1ECDng cho nh\u1EEFng ng\u01B0\u1EDDi
+    b\u1EA1n Zephyria c\u1EE7a m\xECnh v\xE0 gieo r\u1EAFc n\u1ED7i s\u1EE3 h\xE3i
+    v\xE0o tr\xE1i tim c\u1EE7a nh\u1EEFng k\u1EBB x\xE2m l\u01B0\u1EE3c.\r\n\r\nTh\u1EDDi
+    gian tr\xF4i qua, k\u1EF9 n\u0103ng c\u1EE7a b\u1EA1n \u0111\u01B0\u1EE3c c\u1EA3i
+    thi\u1EC7n v\xE0 l\xF2ng can \u0111\u1EA3m c\u1EE7a b\u1EA1n t\u0103ng l\xEAn.
+    B\u1EA1n tr\u1EDF th\xE0nh m\u1ED9t huy\u1EC1n tho\u1EA1i trong l\u1EF1c l\u01B0\u1EE3ng
+    Zephyria, \u0111\u01B0\u1EE3c g\u1ECDi l\xE0 \"Ng\u01B0\u1EDDi b\u1EA3o v\u1EC7
+    v\u0169 tr\u1EE5\". S\u1EF1 d\u0169ng c\u1EA3m c\u1EE7a b\u1EA1n truy\u1EC1n
+    c\u1EA3m h\u1EE9ng cho nh\u1EEFng ng\u01B0\u1EDDi kh\xE1c tham gia cu\u1ED9c
+    chi\u1EBFn, v\xE0 t\xECnh th\u1EBF b\u1EAFt \u0111\u1EA7u nghi\xEAng v\u1EC1
+    phe Zephyria.\r\n\r\nNh\u01B0ng T\u01B0\u1EDBng Zarak, th\u1EE7 l\u0129nh x\u1EA3o
+    quy\u1EC7t c\u1EE7a Xerathons, s\u1EBD kh\xF4ng d\u1EC5 d\xE0ng b\u1ECB \u0111\xE1nh
+    b\u1EA1i. Tr\u1EADn chi\u1EBFn cu\u1ED1i c\xF9ng hi\u1EC7n ra tr\u01B0\u1EDBc
+    m\u1EAFt\u2014m\u1ED9t cu\u1ED9c \u0111\u1EE5ng \u0111\u1ED9 th\u1EA3m kh\u1ED1c
+    s\u1EBD quy\u1EBFt \u0111\u1ECBnh s\u1ED1 ph\u1EADn c\u1EE7a v\u0169 tr\u1EE5.
+    B\u1EA1n ph\u1EA3i t\u1EADp h\u1EE3p t\u1EA5t c\u1EA3 s\u1EE9c m\u1EA1nh, k\u1EF9
+    n\u0103ng v\xE0 quy\u1EBFt t\xE2m c\u1EE7a m\xECnh \u0111\u1EC3 \u0111\xE1nh
+    b\u1EA1i k\u1EBB th\xF9 v\xE0 \u0111\u1EA3m b\u1EA3o t\u01B0\u01A1ng lai cho
+    ng\u01B0\u1EDDi d\xE2n c\u1EE7a b\u1EA1n.\r\n\r\nS\u1ED1 ph\u1EADn c\u1EE7a Zephyria
+    v\xE0 thi\xEAn h\xE0 ph\u1EE5 thu\u1ED9c v\xE0o kh\u1EA3 n\u0103ng tr\xE1nh ch\u01B0\u1EDBng
+    ng\u1EA1i v\u1EADt c\u1EE7a b\u1EA1n, s\u1ED1ng s\xF3t tr\u01B0\u1EDBc m\u1ECDi
+    kh\xF3 kh\u0103n v\xE0 gi\xE0nh chi\u1EBFn th\u1EAFng trong cu\u1ED9c giao tranh
+    v\u0169 tr\u1EE5. B\u1EA1n \u0111\xE3 s\u1EB5n s\xE0ng n\u1EAFm l\u1EA5y v\u1EADn
+    m\u1EC7nh c\u1EE7a m\xECnh v\xE0 tr\u1EDF th\xE0nh anh h\xF9ng gi\u1EEFa c\xE1c
+    v\xEC sao? V\u0169 tr\u1EE5 \u0111ang ch\u1EDD \u0111\u1EE3i l\xF2ng d\u0169ng
+    c\u1EA3m c\u1EE7a b\u1EA1n.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -984,8 +1063,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190335
-  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
+    rgba: 4278223093
+  m_fontColor: {r: 0.9622642, g: 0.50356835, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1002,8 +1081,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 80
-  m_fontSizeBase: 80
+  m_fontSize: 22
+  m_fontSizeBase: 22
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2032,7 +2111,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000015259, y: 722}
+  m_AnchoredPosition: {x: 0.000015259, y: 805}
   m_SizeDelta: {x: 650.8083, y: 120.5743}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &872661499
@@ -2977,7 +3056,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1227428706
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3314,7 +3393,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1463860493
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3759,7 +3838,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1722758065
 RectTransform:
   m_ObjectHideFlags: 0
