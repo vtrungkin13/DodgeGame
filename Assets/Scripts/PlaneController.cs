@@ -37,7 +37,7 @@ public class PlaneController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        MouseMoving();
+        KeyboardMoving();
         transform.position = new Vector3(Mathf.Clamp(transform.position.x, xMin, xMax), transform.position.y, transform.position.z);       
         transform.position = new Vector3(transform.position.x, Mathf.Clamp(transform.position.y, yMin, yMax), transform.position.z);
 
