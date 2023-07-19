@@ -446,8 +446,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 5387311972928380606, guid: cc05582f335146c40a642c4eacd2f30c, type: 3}
-  minSpawnInterval: 60
-  maxSpawnInterval: 120
+  minSpawnInterval: 30
+  maxSpawnInterval: 60
 --- !u!1 &740357503
 GameObject:
   m_ObjectHideFlags: 0
@@ -1814,6 +1814,14 @@ PrefabInstance:
     - target: {fileID: 7025347086592333063, guid: 4ba3271f488c1d145811f2a9b389564d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025347086592333065, guid: 4ba3271f488c1d145811f2a9b389564d, type: 3}
+      propertyPath: m_Size.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025347086592333065, guid: 4ba3271f488c1d145811f2a9b389564d, type: 3}
+      propertyPath: m_Size.y
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ba3271f488c1d145811f2a9b389564d, type: 3}

@@ -25,7 +25,7 @@ public class GameController : MonoBehaviour
 
     IEnumerator SpawnEnemies()
     {
-        float spawnTime = 0.5f;
+        float spawnTime = 0.3f;
         float posY = 11.5f;
         while(true)
         {
